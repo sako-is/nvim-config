@@ -7,7 +7,7 @@
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim` on Unix Systems
 
  - Install NodeJS
- - Install Exuberant Ctags (here)[https://ctags.sourceforge.net/]
+ - Install Exuberant Ctags [here](https://ctags.sourceforge.net/)
  - Run ":PackerSync" when opening nvim
  - Restart nvim
 
