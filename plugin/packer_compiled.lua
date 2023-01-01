@@ -189,7 +189,7 @@ _G.packer_plugins = {
     url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
   ["onedarkpro.nvim"] = {
-    config = { "\27LJ\2\n”\3\0\0\4\0\f\0\0196\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0004\3\0\0=\3\4\0024\3\0\0=\3\5\0024\3\0\0=\3\6\0024\3\0\0=\3\a\0025\3\b\0=\3\t\0025\3\n\0=\3\v\2B\0\2\1K\0\1\0\foptions\1\0\b\14undercurl\1\14underline\1\vitalic\1\tbold\1\27window_unfocused_color\1\20terminal_colors\1\17transparency\1\15cursorline\1\vstyles\1\0\6\rcomments\tNONE\fstrings\tNONE\17virtual_text\tNONE\14variables\tNONE\14functions\tNONE\rkeywords\tNONE\fplugins\18ft_highlights\15highlights\vcolors\1\0\2\16light_theme\ronelight\15dark_theme\fonedark\nsetup\15onedarkpro\frequire\0" },
+    config = { "\27LJ\2\nì\2\0\0\4\0\f\0\0196\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0004\3\0\0=\3\4\0024\3\0\0=\3\5\0024\3\0\0=\3\6\0024\3\0\0=\3\a\0025\3\b\0=\3\t\0025\3\n\0=\3\v\2B\0\2\1K\0\1\0\foptions\1\0\b\vitalic\1\tbold\1\27window_unfocused_color\1\20terminal_colors\1\17transparency\1\15cursorline\1\14undercurl\1\14underline\1\vstyles\1\0\6\fstrings\tNONE\17virtual_text\tNONE\14variables\tNONE\14functions\tNONE\rkeywords\tNONE\rcomments\tNONE\fplugins\18ft_highlights\15highlights\vcolors\1\0\0\nsetup\15onedarkpro\frequire\0" },
     loaded = true,
     path = "/root/.local/share/nvim/site/pack/packer/start/onedarkpro.nvim",
     url = "https://github.com/olimorris/onedarkpro.nvim"
@@ -239,30 +239,30 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: toggleterm.nvim
-time([[Config for toggleterm.nvim]], true)
-try_loadstring("\27LJ\2\n8\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\15toggleterm\frequire\0", "config", "toggleterm.nvim")
-time([[Config for toggleterm.nvim]], false)
--- Config for: onedarkpro.nvim
-time([[Config for onedarkpro.nvim]], true)
-try_loadstring("\27LJ\2\n”\3\0\0\4\0\f\0\0196\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0004\3\0\0=\3\4\0024\3\0\0=\3\5\0024\3\0\0=\3\6\0024\3\0\0=\3\a\0025\3\b\0=\3\t\0025\3\n\0=\3\v\2B\0\2\1K\0\1\0\foptions\1\0\b\14undercurl\1\14underline\1\vitalic\1\tbold\1\27window_unfocused_color\1\20terminal_colors\1\17transparency\1\15cursorline\1\vstyles\1\0\6\rcomments\tNONE\fstrings\tNONE\17virtual_text\tNONE\14variables\tNONE\14functions\tNONE\rkeywords\tNONE\fplugins\18ft_highlights\15highlights\vcolors\1\0\2\16light_theme\ronelight\15dark_theme\fonedark\nsetup\15onedarkpro\frequire\0", "config", "onedarkpro.nvim")
-time([[Config for onedarkpro.nvim]], false)
--- Config for: poimandres.nvim
-time([[Config for poimandres.nvim]], true)
-try_loadstring("\27LJ\2\n<\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\15poimandres\frequire\0", "config", "poimandres.nvim")
-time([[Config for poimandres.nvim]], false)
--- Config for: nvim-cokeline
-time([[Config for nvim-cokeline]], true)
-try_loadstring("\27LJ\2\n6\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\rcokeline\frequire\0", "config", "nvim-cokeline")
-time([[Config for nvim-cokeline]], false)
 -- Config for: Comment.nvim
 time([[Config for Comment.nvim]], true)
 try_loadstring("\27LJ\2\n5\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\fComment\frequire\0", "config", "Comment.nvim")
 time([[Config for Comment.nvim]], false)
+-- Config for: toggleterm.nvim
+time([[Config for toggleterm.nvim]], true)
+try_loadstring("\27LJ\2\n8\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\15toggleterm\frequire\0", "config", "toggleterm.nvim")
+time([[Config for toggleterm.nvim]], false)
+-- Config for: nvim-cokeline
+time([[Config for nvim-cokeline]], true)
+try_loadstring("\27LJ\2\n6\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\rcokeline\frequire\0", "config", "nvim-cokeline")
+time([[Config for nvim-cokeline]], false)
 -- Config for: auto-session
 time([[Config for auto-session]], true)
 try_loadstring("\27LJ\2\n”\1\0\0\4\0\6\0\t6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0=\3\5\2B\0\2\1K\0\1\0\31auto_session_suppress_dirs\1\5\0\0\a~/\15~/Projects\16~/Downloads\6/\1\0\1\14log_level\nerror\nsetup\17auto-session\frequire\0", "config", "auto-session")
 time([[Config for auto-session]], false)
+-- Config for: poimandres.nvim
+time([[Config for poimandres.nvim]], true)
+try_loadstring("\27LJ\2\n<\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\15poimandres\frequire\0", "config", "poimandres.nvim")
+time([[Config for poimandres.nvim]], false)
+-- Config for: onedarkpro.nvim
+time([[Config for onedarkpro.nvim]], true)
+try_loadstring("\27LJ\2\nì\2\0\0\4\0\f\0\0196\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0004\3\0\0=\3\4\0024\3\0\0=\3\5\0024\3\0\0=\3\6\0024\3\0\0=\3\a\0025\3\b\0=\3\t\0025\3\n\0=\3\v\2B\0\2\1K\0\1\0\foptions\1\0\b\vitalic\1\tbold\1\27window_unfocused_color\1\20terminal_colors\1\17transparency\1\15cursorline\1\14undercurl\1\14underline\1\vstyles\1\0\6\fstrings\tNONE\17virtual_text\tNONE\14variables\tNONE\14functions\tNONE\rkeywords\tNONE\rcomments\tNONE\fplugins\18ft_highlights\15highlights\vcolors\1\0\0\nsetup\15onedarkpro\frequire\0", "config", "onedarkpro.nvim")
+time([[Config for onedarkpro.nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

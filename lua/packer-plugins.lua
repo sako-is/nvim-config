@@ -95,8 +95,6 @@ return require('packer').startup(function(use)
         "olimorris/onedarkpro.nvim", 
         config = function()
             require("onedarkpro").setup({
-                dark_theme = "onedark", -- The default dark theme
-                light_theme = "onelight", -- The default light theme
                 colors = {}, -- Override default colors by specifying colors for 'onelight' or 'onedark' themes
                 highlights = {}, -- Override default highlight groups
                 ft_highlights = {}, -- Override default highlight groups for specific filetypes
